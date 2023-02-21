@@ -13,7 +13,7 @@
 # Schema sample
 The following are sample transactions:
 
-`
+```
 [
  {
   "_id": "_collection",
@@ -173,10 +173,11 @@ The following are sample transactions:
   "restrictCollection": "itemOffered"
  }
 ]
-`
+```
 # Input sample
 
-`
+```
+
 [
     {
         "_id" : "Offer",
@@ -191,9 +192,11 @@ The following are sample transactions:
         
     }
 ]
-`
 
-`
+```
+
+```
+
 [
     {
         "_id" : "Offer",
@@ -206,4 +209,5 @@ The following are sample transactions:
     }
     
 ]
-`
+
+```
