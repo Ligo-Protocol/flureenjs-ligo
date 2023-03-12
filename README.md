@@ -29,7 +29,7 @@ The following are sample transactions:
  },
  {
   "_id": "_collection",
-  "name": "Brand"
+  "name": "brand"
  },
  {
   "_id": "_collection",
