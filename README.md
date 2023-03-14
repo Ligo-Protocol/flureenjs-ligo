@@ -37,7 +37,7 @@ The following are sample transactions:
  },
  {
   "_id": "_collection",
-  "name": "itemOfferred"
+  "name": "itemOffered"
  },
  {
   "_id": "_collection",
@@ -173,41 +173,38 @@ The following are sample transactions:
   "restrictCollection": "itemOffered"
  }
 ]
+
 ```
 # Input sample
 
 ```
-
-[
+ [
     {
-        "_id" : "Offer",
-        
-        "priceSpecification" : "priceSpecification$1"
-                                            
-    },
-    {
-        "_id" : "priceSpecification$1",
-        "price" :1000,
-        "currency" : "USD"
-        
-    }
-]
-
-```
-
-```
-
-[
-    {
-        "_id" : "Offer",
-        
+        "_id" : "Offer",        
+        "images": "bafybeicczajypiikr3yjsakjju4w5ln5nzb42zhzuxjmm",
+        "description": "Thae diptiodlnssa",
         "priceSpecification" : {
-        "_id" : "priceSpecification$1",
-        "price" :2000,
-        "currency" : "USD"}
-        
+            "_id" : "priceSpecification$1",
+            "price" :888,
+            "currency" : "USD"},
+         "areaServed" : {
+          "_id" : "areaServed$1",
+          "postalCode" : "CA12"
+        },
+        "advanceBookingRequirement" : {
+          "_id" : "advanceBookingRequirement$1",
+          "value" : 5
+        },
+
+        "itemOffered" : {
+        "_id" : "itemOffered$1",
+        "vehicleIdentificationNumber" : "SJBHFONNAKSJFP",
+	    "brand": {
+            "_id" : "brand$1",
+            "name": "Tesla"
+          }
+        }
     }
-    
 ]
 
 ```
